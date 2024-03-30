@@ -1,0 +1,73 @@
+
+a:link, a:visited {
+    color: white;
+    background-color: lightblue;
+    text-decoration:solid;
+  }
+
+body{
+    background-color: black;
+    font-family: monospace;
+    color:white;
+}
+
+  
+  a:hover, a:active {
+    color: lightsalmon;
+    background-color: white;
+    text-decoration:solid;
+  }
+#AKA{
+    position:relative;
+    bottom: 15;
+}
+
+#main{
+    margin-top: 3.76%;
+    border: 2px;
+    border-color: white;
+    border-style: groove;
+    width: 500;
+    padding: 2;
+    
+}
+.button{
+    border:none;
+    color:white;
+    padding: 16px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16;
+    margin: 4 2;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+#gerni{
+    background-color: black;
+    color:white;
+    border: 2px solid magenta;
+    position:relative;
+    right:10;
+}
+#gerni:hover{
+    background-color: magenta;
+    color:black;
+}
+#youtube{
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    position: relative;
+    left:10;
+}
+#youtube:hover{
+    background-color: red;
+    color:black;
+}
+
+.center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
